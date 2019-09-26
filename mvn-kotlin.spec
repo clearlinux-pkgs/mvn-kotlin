@@ -4,27 +4,71 @@
 #
 Name     : mvn-kotlin
 Version  : 1
-Release  : 1
+Release  : 2
 URL      : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.1.51/kotlin-sam-with-receiver-compiler-plugin-1.1.51.jar
 Source0  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.1.51/kotlin-sam-with-receiver-compiler-plugin-1.1.51.jar
-Source1  : https://repo.gradle.org/gradle/libs-releases/org/gradle/gradle-kotlin-dsl-tooling-builders/0.12.3/gradle-kotlin-dsl-tooling-builders-0.12.3.jar
-Source2  : https://repo.gradle.org/gradle/libs-releases/org/gradle/gradle-kotlin-dsl-tooling-builders/0.12.3/gradle-kotlin-dsl-tooling-builders-0.12.3.pom
-Source3  : https://repo.gradle.org/gradle/libs-releases/org/gradle/gradle-kotlin-dsl-tooling-models/0.12.3/gradle-kotlin-dsl-tooling-models-0.12.3.jar
-Source4  : https://repo.gradle.org/gradle/libs-releases/org/gradle/gradle-kotlin-dsl-tooling-models/0.12.3/gradle-kotlin-dsl-tooling-models-0.12.3.pom
-Source5  : https://repo.gradle.org/gradle/libs-releases/org/gradle/gradle-kotlin-dsl/0.12.3/gradle-kotlin-dsl-0.12.3.jar
-Source6  : https://repo.gradle.org/gradle/libs-releases/org/gradle/gradle-kotlin-dsl/0.12.3/gradle-kotlin-dsl-0.12.3.pom
-Source7  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.1.51/kotlin-compiler-embeddable-1.1.51.jar
-Source8  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.1.51/kotlin-compiler-embeddable-1.1.51.pom
-Source9  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-project/1.1.51/kotlin-project-1.1.51.pom
-Source10  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-reflect/1.1.51/kotlin-reflect-1.1.51.jar
-Source11  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-reflect/1.1.51/kotlin-reflect-1.1.51.pom
-Source12  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.1.51/kotlin-sam-with-receiver-compiler-plugin-1.1.51.pom
-Source13  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib/1.1.51/kotlin-stdlib-1.1.51.jar
-Source14  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib/1.1.51/kotlin-stdlib-1.1.51.pom
+Source1  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-android-extensions/1.3.41/kotlin-android-extensions-1.3.41.jar
+Source2  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-android-extensions/1.3.41/kotlin-android-extensions-1.3.41.pom
+Source3  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.3.41/kotlin-annotation-processing-gradle-1.3.41.jar
+Source4  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.3.41/kotlin-annotation-processing-gradle-1.3.41.pom
+Source5  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-build-common/1.3.41/kotlin-build-common-1.3.41.jar
+Source6  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-build-common/1.3.41/kotlin-build-common-1.3.41.pom
+Source7  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.20/kotlin-compiler-embeddable-1.3.20.jar
+Source8  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.20/kotlin-compiler-embeddable-1.3.20.pom
+Source9  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.41/kotlin-compiler-embeddable-1.3.41.jar
+Source10  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.41/kotlin-compiler-embeddable-1.3.41.pom
+Source11  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-compiler-runner/1.3.41/kotlin-compiler-runner-1.3.41.jar
+Source12  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-compiler-runner/1.3.41/kotlin-compiler-runner-1.3.41.pom
+Source13  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-daemon-client/1.3.41/kotlin-daemon-client-1.3.41.jar
+Source14  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-daemon-client/1.3.41/kotlin-daemon-client-1.3.41.pom
+Source15  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.3.41/kotlin-gradle-plugin-api-1.3.41.jar
+Source16  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.3.41/kotlin-gradle-plugin-api-1.3.41.pom
+Source17  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.3.41/kotlin-gradle-plugin-model-1.3.41.jar
+Source18  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.3.41/kotlin-gradle-plugin-model-1.3.41.pom
+Source19  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-gradle-plugin/1.3.41/kotlin-gradle-plugin-1.3.41.jar
+Source20  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-gradle-plugin/1.3.41/kotlin-gradle-plugin-1.3.41.pom
+Source21  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-reflect/1.3.41/kotlin-reflect-1.3.41.jar
+Source22  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-reflect/1.3.41/kotlin-reflect-1.3.41.pom
+Source23  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.3.41/kotlin-sam-with-receiver-compiler-plugin-1.3.41.jar
+Source24  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.3.41/kotlin-sam-with-receiver-compiler-plugin-1.3.41.pom
+Source25  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-sam-with-receiver/1.3.41/kotlin-sam-with-receiver-1.3.41.jar
+Source26  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-sam-with-receiver/1.3.41/kotlin-sam-with-receiver-1.3.41.pom
+Source27  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-script-runtime/1.3.20/kotlin-script-runtime-1.3.20.jar
+Source28  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-script-runtime/1.3.20/kotlin-script-runtime-1.3.20.pom
+Source29  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-script-runtime/1.3.41/kotlin-script-runtime-1.3.41.jar
+Source30  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-script-runtime/1.3.41/kotlin-script-runtime-1.3.41.pom
+Source31  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-scripting-common/1.3.41/kotlin-scripting-common-1.3.41.jar
+Source32  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-scripting-common/1.3.41/kotlin-scripting-common-1.3.41.pom
+Source33  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.3.41/kotlin-scripting-compiler-embeddable-1.3.41.jar
+Source34  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.3.41/kotlin-scripting-compiler-embeddable-1.3.41.pom
+Source35  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.3.41/kotlin-scripting-compiler-impl-embeddable-1.3.41.jar
+Source36  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.3.41/kotlin-scripting-compiler-impl-embeddable-1.3.41.pom
+Source37  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-scripting-compiler/1.3.41/kotlin-scripting-compiler-1.3.41.jar
+Source38  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-scripting-compiler/1.3.41/kotlin-scripting-compiler-1.3.41.pom
+Source39  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-scripting-jvm/1.3.41/kotlin-scripting-jvm-1.3.41.jar
+Source40  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-scripting-jvm/1.3.41/kotlin-scripting-jvm-1.3.41.pom
+Source41  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.20/kotlin-stdlib-common-1.3.20.jar
+Source42  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.20/kotlin-stdlib-common-1.3.20.pom
+Source43  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.41/kotlin-stdlib-common-1.3.41.jar
+Source44  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.41/kotlin-stdlib-common-1.3.41.pom
+Source45  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.41/kotlin-stdlib-jdk7-1.3.41.jar
+Source46  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.41/kotlin-stdlib-jdk7-1.3.41.pom
+Source47  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.41/kotlin-stdlib-jdk8-1.3.41.jar
+Source48  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.41/kotlin-stdlib-jdk8-1.3.41.pom
+Source49  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.41/kotlin-stdlib-js-1.3.41.jar
+Source50  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.41/kotlin-stdlib-js-1.3.41.pom
+Source51  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib/1.3.20/kotlin-stdlib-1.3.20.jar
+Source52  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib/1.3.20/kotlin-stdlib-1.3.20.pom
+Source53  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib/1.3.41/kotlin-stdlib-1.3.41.jar
+Source54  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlin/kotlin-stdlib/1.3.41/kotlin-stdlib-1.3.41.pom
+Source55  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0.jar
+Source56  : https://repo.gradle.org/gradle/libs-releases/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: mvn-kotlin-data = %{version}-%{release}
+BuildRequires : apache-maven
+BuildRequires : buildreq-mvn
 
 %description
 No detailed description available
@@ -46,47 +90,173 @@ data components for the mvn-kotlin package.
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.1.51
 cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.1.51/kotlin-sam-with-receiver-compiler-plugin-1.1.51.jar
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl-tooling-builders/0.12.3
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl-tooling-builders/0.12.3/gradle-kotlin-dsl-tooling-builders-0.12.3.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-android-extensions/1.3.41
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-android-extensions/1.3.41/kotlin-android-extensions-1.3.41.jar
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl-tooling-builders/0.12.3
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl-tooling-builders/0.12.3/gradle-kotlin-dsl-tooling-builders-0.12.3.pom
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-android-extensions/1.3.41
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-android-extensions/1.3.41/kotlin-android-extensions-1.3.41.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl-tooling-models/0.12.3
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl-tooling-models/0.12.3/gradle-kotlin-dsl-tooling-models-0.12.3.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.3.41
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.3.41/kotlin-annotation-processing-gradle-1.3.41.jar
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl-tooling-models/0.12.3
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl-tooling-models/0.12.3/gradle-kotlin-dsl-tooling-models-0.12.3.pom
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.3.41
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.3.41/kotlin-annotation-processing-gradle-1.3.41.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl/0.12.3
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl/0.12.3/gradle-kotlin-dsl-0.12.3.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-build-common/1.3.41
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-build-common/1.3.41/kotlin-build-common-1.3.41.jar
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl/0.12.3
-cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl/0.12.3/gradle-kotlin-dsl-0.12.3.pom
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-build-common/1.3.41
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-build-common/1.3.41/kotlin-build-common-1.3.41.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.1.51
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.1.51/kotlin-compiler-embeddable-1.1.51.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.20
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.20/kotlin-compiler-embeddable-1.3.20.jar
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.1.51
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.1.51/kotlin-compiler-embeddable-1.1.51.pom
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.20
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.20/kotlin-compiler-embeddable-1.3.20.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-project/1.1.51
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-project/1.1.51/kotlin-project-1.1.51.pom
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.41
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.41/kotlin-compiler-embeddable-1.3.41.jar
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.1.51
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.1.51/kotlin-reflect-1.1.51.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.41
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.41/kotlin-compiler-embeddable-1.3.41.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.1.51
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.1.51/kotlin-reflect-1.1.51.pom
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-runner/1.3.41
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-runner/1.3.41/kotlin-compiler-runner-1.3.41.jar
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.1.51
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.1.51/kotlin-sam-with-receiver-compiler-plugin-1.1.51.pom
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-runner/1.3.41
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-runner/1.3.41/kotlin-compiler-runner-1.3.41.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.1.51
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.1.51/kotlin-stdlib-1.1.51.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-daemon-client/1.3.41
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-daemon-client/1.3.41/kotlin-daemon-client-1.3.41.jar
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.1.51
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.1.51/kotlin-stdlib-1.1.51.pom
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-daemon-client/1.3.41
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-daemon-client/1.3.41/kotlin-daemon-client-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.3.41
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.3.41/kotlin-gradle-plugin-api-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.3.41
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.3.41/kotlin-gradle-plugin-api-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.3.41
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.3.41/kotlin-gradle-plugin-model-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.3.41
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.3.41/kotlin-gradle-plugin-model-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin/1.3.41
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin/1.3.41/kotlin-gradle-plugin-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin/1.3.41
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin/1.3.41/kotlin-gradle-plugin-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.3.41
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.3.41/kotlin-reflect-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.3.41
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.3.41/kotlin-reflect-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.3.41
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.3.41/kotlin-sam-with-receiver-compiler-plugin-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.3.41
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.3.41/kotlin-sam-with-receiver-compiler-plugin-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver/1.3.41
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver/1.3.41/kotlin-sam-with-receiver-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver/1.3.41
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver/1.3.41/kotlin-sam-with-receiver-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.20
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.20/kotlin-script-runtime-1.3.20.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.20
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.20/kotlin-script-runtime-1.3.20.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.41
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.41/kotlin-script-runtime-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.41
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.41/kotlin-script-runtime-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-common/1.3.41
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-common/1.3.41/kotlin-scripting-common-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-common/1.3.41
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-common/1.3.41/kotlin-scripting-common-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.3.41
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.3.41/kotlin-scripting-compiler-embeddable-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.3.41
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.3.41/kotlin-scripting-compiler-embeddable-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.3.41
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.3.41/kotlin-scripting-compiler-impl-embeddable-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.3.41
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.3.41/kotlin-scripting-compiler-impl-embeddable-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler/1.3.41
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler/1.3.41/kotlin-scripting-compiler-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler/1.3.41
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler/1.3.41/kotlin-scripting-compiler-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-jvm/1.3.41
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-jvm/1.3.41/kotlin-scripting-jvm-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-jvm/1.3.41
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-jvm/1.3.41/kotlin-scripting-jvm-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.20
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.20/kotlin-stdlib-common-1.3.20.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.20
+cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.20/kotlin-stdlib-common-1.3.20.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.41
+cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.41/kotlin-stdlib-common-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.41
+cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.41/kotlin-stdlib-common-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.41
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.41/kotlin-stdlib-jdk7-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.41
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.41/kotlin-stdlib-jdk7-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.41
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.41/kotlin-stdlib-jdk8-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.41
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.41/kotlin-stdlib-jdk8-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.41
+cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.41/kotlin-stdlib-js-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.41
+cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.41/kotlin-stdlib-js-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.20
+cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.20/kotlin-stdlib-1.3.20.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.20
+cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.20/kotlin-stdlib-1.3.20.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.41
+cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.41/kotlin-stdlib-1.3.41.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.41
+cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.41/kotlin-stdlib-1.3.41.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0
+cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0
+cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0.pom
 
 
 %files
@@ -94,18 +264,60 @@ cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/jetbrains/kotlin/k
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl-tooling-builders/0.12.3/gradle-kotlin-dsl-tooling-builders-0.12.3.jar
-/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl-tooling-builders/0.12.3/gradle-kotlin-dsl-tooling-builders-0.12.3.pom
-/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl-tooling-models/0.12.3/gradle-kotlin-dsl-tooling-models-0.12.3.jar
-/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl-tooling-models/0.12.3/gradle-kotlin-dsl-tooling-models-0.12.3.pom
-/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl/0.12.3/gradle-kotlin-dsl-0.12.3.jar
-/usr/share/java/.m2/repository/org/gradle/gradle-kotlin-dsl/0.12.3/gradle-kotlin-dsl-0.12.3.pom
-/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.1.51/kotlin-compiler-embeddable-1.1.51.jar
-/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.1.51/kotlin-compiler-embeddable-1.1.51.pom
-/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-project/1.1.51/kotlin-project-1.1.51.pom
-/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.1.51/kotlin-reflect-1.1.51.jar
-/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.1.51/kotlin-reflect-1.1.51.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-android-extensions/1.3.41/kotlin-android-extensions-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-android-extensions/1.3.41/kotlin-android-extensions-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.3.41/kotlin-annotation-processing-gradle-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.3.41/kotlin-annotation-processing-gradle-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-build-common/1.3.41/kotlin-build-common-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-build-common/1.3.41/kotlin-build-common-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.20/kotlin-compiler-embeddable-1.3.20.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.20/kotlin-compiler-embeddable-1.3.20.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.41/kotlin-compiler-embeddable-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.3.41/kotlin-compiler-embeddable-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-runner/1.3.41/kotlin-compiler-runner-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-compiler-runner/1.3.41/kotlin-compiler-runner-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-daemon-client/1.3.41/kotlin-daemon-client-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-daemon-client/1.3.41/kotlin-daemon-client-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.3.41/kotlin-gradle-plugin-api-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.3.41/kotlin-gradle-plugin-api-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.3.41/kotlin-gradle-plugin-model-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.3.41/kotlin-gradle-plugin-model-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin/1.3.41/kotlin-gradle-plugin-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-gradle-plugin/1.3.41/kotlin-gradle-plugin-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.3.41/kotlin-reflect-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.3.41/kotlin-reflect-1.3.41.pom
 /usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.1.51/kotlin-sam-with-receiver-compiler-plugin-1.1.51.jar
-/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.1.51/kotlin-sam-with-receiver-compiler-plugin-1.1.51.pom
-/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.1.51/kotlin-stdlib-1.1.51.jar
-/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.1.51/kotlin-stdlib-1.1.51.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.3.41/kotlin-sam-with-receiver-compiler-plugin-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver-compiler-plugin/1.3.41/kotlin-sam-with-receiver-compiler-plugin-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver/1.3.41/kotlin-sam-with-receiver-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-sam-with-receiver/1.3.41/kotlin-sam-with-receiver-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.20/kotlin-script-runtime-1.3.20.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.20/kotlin-script-runtime-1.3.20.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.41/kotlin-script-runtime-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.41/kotlin-script-runtime-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-common/1.3.41/kotlin-scripting-common-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-common/1.3.41/kotlin-scripting-common-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.3.41/kotlin-scripting-compiler-embeddable-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.3.41/kotlin-scripting-compiler-embeddable-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.3.41/kotlin-scripting-compiler-impl-embeddable-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.3.41/kotlin-scripting-compiler-impl-embeddable-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler/1.3.41/kotlin-scripting-compiler-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-compiler/1.3.41/kotlin-scripting-compiler-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-jvm/1.3.41/kotlin-scripting-jvm-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-scripting-jvm/1.3.41/kotlin-scripting-jvm-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.20/kotlin-stdlib-common-1.3.20.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.20/kotlin-stdlib-common-1.3.20.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.41/kotlin-stdlib-common-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.41/kotlin-stdlib-common-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.41/kotlin-stdlib-jdk7-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.3.41/kotlin-stdlib-jdk7-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.41/kotlin-stdlib-jdk8-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.3.41/kotlin-stdlib-jdk8-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.41/kotlin-stdlib-js-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-js/1.3.41/kotlin-stdlib-js-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.20/kotlin-stdlib-1.3.20.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.20/kotlin-stdlib-1.3.20.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.41/kotlin-stdlib-1.3.41.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.41/kotlin-stdlib-1.3.41.pom
+/usr/share/java/.m2/repository/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0.jar
+/usr/share/java/.m2/repository/org/jetbrains/kotlinx/kotlinx-metadata-jvm/0.1.0/kotlinx-metadata-jvm-0.1.0.pom
